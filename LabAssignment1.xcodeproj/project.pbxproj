@@ -14,6 +14,10 @@
 		821C9EC41B2B748200476FE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821C9EC31B2B748200476FE1 /* Images.xcassets */; };
 		821C9EC71B2B748200476FE1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 821C9EC51B2B748200476FE1 /* LaunchScreen.xib */; };
 		821C9ED31B2B748300476FE1 /* LabAssignment1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 821C9ED21B2B748300476FE1 /* LabAssignment1Tests.m */; };
+		82CF09351B2B82C2003287D9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CF09341B2B82C2003287D9 /* SecondViewController.m */; };
+		82CF09381B2B859E003287D9 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CF09371B2B859E003287D9 /* ThirdViewController.m */; };
+		82CF093C1B2B8E22003287D9 /* welcome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82CF093B1B2B8E22003287D9 /* welcome.jpg */; };
+		82CF093E1B2B9002003287D9 /* apache_pb.gif in Resources */ = {isa = PBXBuildFile; fileRef = 82CF093D1B2B9002003287D9 /* apache_pb.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,12 @@
 		821C9ECC1B2B748200476FE1 /* LabAssignment1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabAssignment1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		821C9ED11B2B748300476FE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		821C9ED21B2B748300476FE1 /* LabAssignment1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabAssignment1Tests.m; sourceTree = "<group>"; };
+		82CF09331B2B82C2003287D9 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		82CF09341B2B82C2003287D9 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		82CF09361B2B859E003287D9 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		82CF09371B2B859E003287D9 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		82CF093B1B2B8E22003287D9 /* welcome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = welcome.jpg; path = ../../welcome.jpg; sourceTree = "<group>"; };
+		82CF093D1B2B9002003287D9 /* apache_pb.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = apache_pb.gif; path = ../../../Sites/images/apache_pb.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +91,17 @@
 		821C9EB51B2B748200476FE1 /* LabAssignment1 */ = {
 			isa = PBXGroup;
 			children = (
+				82CF093D1B2B9002003287D9 /* apache_pb.gif */,
+				82CF093B1B2B8E22003287D9 /* welcome.jpg */,
 				821C9EBA1B2B748200476FE1 /* AppDelegate.h */,
 				821C9EBB1B2B748200476FE1 /* AppDelegate.m */,
 				821C9EBD1B2B748200476FE1 /* ViewController.h */,
 				821C9EBE1B2B748200476FE1 /* ViewController.m */,
 				821C9EC01B2B748200476FE1 /* Main.storyboard */,
+				82CF09361B2B859E003287D9 /* ThirdViewController.h */,
+				82CF09371B2B859E003287D9 /* ThirdViewController.m */,
+				82CF09331B2B82C2003287D9 /* SecondViewController.h */,
+				82CF09341B2B82C2003287D9 /* SecondViewController.m */,
 				821C9EC31B2B748200476FE1 /* Images.xcassets */,
 				821C9EC51B2B748200476FE1 /* LaunchScreen.xib */,
 				821C9EB61B2B748200476FE1 /* Supporting Files */,
@@ -201,6 +217,8 @@
 			files = (
 				821C9EC21B2B748200476FE1 /* Main.storyboard in Resources */,
 				821C9EC71B2B748200476FE1 /* LaunchScreen.xib in Resources */,
+				82CF093E1B2B9002003287D9 /* apache_pb.gif in Resources */,
+				82CF093C1B2B8E22003287D9 /* welcome.jpg in Resources */,
 				821C9EC41B2B748200476FE1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +237,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82CF09351B2B82C2003287D9 /* SecondViewController.m in Sources */,
+				82CF09381B2B859E003287D9 /* ThirdViewController.m in Sources */,
 				821C9EBF1B2B748200476FE1 /* ViewController.m in Sources */,
 				821C9EBC1B2B748200476FE1 /* AppDelegate.m in Sources */,
 				821C9EB91B2B748200476FE1 /* main.m in Sources */,
@@ -416,6 +436,7 @@
 				821C9ED81B2B748300476FE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		821C9ED91B2B748300476FE1 /* Build configuration list for PBXNativeTarget "LabAssignment1Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +445,7 @@
 				821C9EDB1B2B748300476FE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
